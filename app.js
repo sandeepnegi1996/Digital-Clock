@@ -8,7 +8,13 @@ function clock()
     var hours=fulldate.getHours();
     var minutes=fulldate.getMinutes();
     var seconds=fulldate.getSeconds();
-
+    var ampm= "AM";
+    
+    if(hours>12){
+        ampm="PM";
+        hours-=12;
+    }
+    
     if (hours<10) 
     {
         hours="0"+ hours;   
@@ -23,18 +29,14 @@ function clock()
     {
         seconds="0"+seconds;    
     }
-     if (hours>12) 
-    {
-        hours=hours-12;
-        hours="0"+ hours;  
-        
-    }
 
     document.getElementById("hour").innerHTML=hours+":";
 
     document.getElementById("minute").innerHTML=minutes+":";
 
     document.getElementById("second").innerHTML=seconds;
+    
+    document.getElementById("ampm").innerHTML=ampm;
 
 }
  
