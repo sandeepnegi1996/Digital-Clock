@@ -15,7 +15,7 @@ body
 .main
 {
     background: #001a00;
-    width: 400px;
+    width: 550px;
     height: 175px;
     margin: 150px auto;
     position: relative;
@@ -30,7 +30,7 @@ body
     padding: 5px 10px;
     position: absolute;
     top: -10px;
-    left: 150px;
+    left: 220px;
     border-radius: 10px;
 
 }
