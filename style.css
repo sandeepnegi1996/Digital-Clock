@@ -1,10 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body
-{
+
+body {
     background-image: url(images/back.jpg);
     height: 100%;
     background-position: center;
@@ -12,8 +12,7 @@ body
     background-size: cover;
 }
 
-.main
-{
+.main {
     background: #001a00;
     width: 550px;
     height: 175px;
@@ -23,8 +22,8 @@ body
     border-radius: 10px;
 }
 
-.badge
-{
+
+.badge {
     background: #a3c2c2;
     width: 95px;
     padding: 5px 10px;
@@ -34,12 +33,16 @@ body
     border-radius: 10px;
 
 }
-.clock
-{
+
+.clock {
     background: #b3cccc;
     text-align: center;
     font-size: 70px;
     padding: 10px 10px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-radius: 5px;
+}
+
+.align-buttons {
+    margin-left: 43vw;
 }
